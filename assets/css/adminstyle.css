@@ -1,0 +1,12 @@
+.misc-pub-section label {
+    width   : 55px; 
+    display : inline-block; 
+}
+
+.misc-pub-section select {
+    width   : 175px; 
+}
+
+#pati_colorpicker input {
+	width: 66px;
+}

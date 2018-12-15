@@ -1,0 +1,1002 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ticket Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-12-28 10:23+0100\n"
+"PO-Revision-Date: 2014-10-14 11:27+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_n:1,2;_x:1,2c;_ex:1,2x;esc_attr__;esc_attr_e;_;"
+"gettext;gettext_noop;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: language\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+"X-Poedit-SearchPathExcluded-1: assets\n"
+
+#: includes/actions.php:16
+msgid "User Group"
+msgstr ""
+
+#: includes/actions.php:100
+msgid "Select Category"
+msgstr ""
+
+#: includes/actions.php:117 includes/form.php:317
+msgid "Select Status"
+msgstr ""
+
+#: includes/actions.php:134
+msgid "Select Priority"
+msgstr ""
+
+#: includes/actions.php:172 includes/admin/class-pati-admin.php:167
+#: includes/class-pati-post-type.php:61 includes/loop-heading.php:122
+#: templates/add-ticket.php:36
+#: templates/single-ticket/ticket-update-form.php:35
+msgid "Category"
+msgstr ""
+
+#: includes/actions.php:182 includes/admin/class-pati-admin.php:168
+#: includes/class-pati-post-type.php:83 includes/class-pati-post-type.php:84
+#: includes/class-pati-post-type.php:94 includes/deprecated.php:121
+#: includes/loop-heading.php:110 templates/add-ticket.php:50
+#: templates/single-ticket/ticket-summary.php:6
+#: templates/single-ticket/ticket-update-form.php:42
+msgid "Status"
+msgstr ""
+
+#: includes/actions.php:192 includes/admin/class-pati-admin.php:171
+#: includes/class-pati-post-type.php:106 includes/class-pati-post-type.php:107
+#: includes/class-pati-post-type.php:117 includes/deprecated.php:135
+#: includes/deprecated.php:139 includes/loop-heading.php:134
+#: templates/add-ticket.php:57 templates/single-ticket/ticket-summary.php:10
+#: templates/single-ticket/ticket-update-form.php:49
+msgid "Priority"
+msgstr ""
+
+#: includes/actions.php:202 includes/admin/class-pati-admin.php:172
+#: includes/class-pati-post-type.php:129 includes/class-pati-post-type.php:130
+#: includes/class-pati-post-type.php:140 includes/loop-heading.php:146
+#: templates/add-ticket.php:43 templates/single-ticket/ticket-summary.php:12
+#: templates/single-ticket/ticket-update-form.php:56
+msgid "Type"
+msgstr ""
+
+#: includes/actions.php:212 templates/add-ticket.php:66
+#: templates/single-ticket/ticket-summary.php:16
+#: templates/single-ticket/ticket-update-form.php:65
+msgid "Assigned"
+msgstr ""
+
+#: includes/actions.php:214 includes/form.php:254
+msgid "Select User"
+msgstr ""
+
+#: includes/actions.php:250
+msgid "All tickets"
+msgstr ""
+
+#: includes/actions.php:251
+msgid "Assigned tickets"
+msgstr ""
+
+#: includes/actions.php:252
+msgid "None"
+msgstr ""
+
+#: includes/actions.php:260
+msgid "Send me email on new ticket submission: "
+msgstr ""
+
+#: includes/actions.php:264
+msgid "Send me email on ticket update: "
+msgstr ""
+
+#: includes/actions.php:282
+msgid "Send me email on ticket update "
+msgstr ""
+
+#: includes/admin/class-pati-admin.php:121
+#, php-format
+msgid "%d sec ago"
+msgid_plural "%d secs ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-pati-admin.php:123
+#: includes/admin/class-pati-admin.php:125
+#, php-format
+msgid "%d min ago"
+msgid_plural "%d mins ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-pati-admin.php:164 includes/deprecated.php:131
+#: templates/single-ticket/ticket-summary.php:4
+msgid "Ticket Id"
+msgstr ""
+
+#: includes/admin/class-pati-admin.php:165
+msgid "customer"
+msgstr ""
+
+#: includes/admin/class-pati-admin.php:170
+msgid "Last Updated"
+msgstr ""
+
+#: includes/admin/class-pati-admin.php:173
+#: includes/class-pati-post-type.php:152 includes/class-pati-post-type.php:163
+#: templates/add-ticket.php:74 templates/single-ticket/ticket-summary.php:28
+#: templates/single-ticket/ticket-update-form.php:73
+msgid "Tags"
+msgstr ""
+
+#: includes/admin/class-pati-admin.php:187
+msgid "Status Color"
+msgstr ""
+
+#: includes/class-pati-frontend-do_action.php:91
+msgid "Please Select Appropriate User Assigne for the Ticket"
+msgstr ""
+
+#: includes/class-pati-frontend-do_action.php:97
+msgid "You don't Have the Rights To assign The Ticket"
+msgstr ""
+
+#: includes/class-pati-frontend-do_action.php:202
+msgid "Ticket details have been updated"
+msgstr ""
+
+#: includes/class-pati-frontend-do_action.php:265
+msgid "Ticket Title can not be Left Blank"
+msgstr ""
+
+#: includes/class-pati-post-type.php:24 includes/class-pati-post-type.php:26
+#: includes/class-pati-template-loader.php:176
+msgid "Tickets"
+msgstr ""
+
+#: includes/class-pati-post-type.php:27
+#: templates/single-ticket/ticket-update-form.php:23
+msgid "Ticket"
+msgstr ""
+
+#: includes/class-pati-post-type.php:28
+msgid "Add Ticket"
+msgstr ""
+
+#: includes/class-pati-post-type.php:29
+msgid "Add New Ticket"
+msgstr ""
+
+#: includes/class-pati-post-type.php:30
+msgid "Edit Ticket"
+msgstr ""
+
+#: includes/class-pati-post-type.php:31
+msgid "New Ticket"
+msgstr ""
+
+#: includes/class-pati-post-type.php:32
+msgid "View Tickets"
+msgstr ""
+
+#: includes/class-pati-post-type.php:33
+msgid "Search Tickets"
+msgstr ""
+
+#: includes/class-pati-post-type.php:34
+msgid "No Tickets found"
+msgstr ""
+
+#: includes/class-pati-post-type.php:35
+msgid "No Tickets found in Trash"
+msgstr ""
+
+#: includes/class-pati-post-type.php:36
+msgid "All Tickets"
+msgstr ""
+
+#: includes/class-pati-post-type.php:60 includes/class-pati-post-type.php:71
+msgid "Categories"
+msgstr ""
+
+#: includes/class-pati-post-type.php:62
+msgid "Search Categories"
+msgstr ""
+
+#: includes/class-pati-post-type.php:63
+msgid "All Categories"
+msgstr ""
+
+#: includes/class-pati-post-type.php:64
+msgid "Parent Category"
+msgstr ""
+
+#: includes/class-pati-post-type.php:65
+msgid "Parent Category:"
+msgstr ""
+
+#: includes/class-pati-post-type.php:66
+msgid "Edit Category"
+msgstr ""
+
+#: includes/class-pati-post-type.php:67
+msgid "Update Category"
+msgstr ""
+
+#: includes/class-pati-post-type.php:68
+msgid "Add New Category"
+msgstr ""
+
+#: includes/class-pati-post-type.php:69
+msgid "New Category Name"
+msgstr ""
+
+#: includes/class-pati-post-type.php:85
+msgid "Search Status"
+msgstr ""
+
+#: includes/class-pati-post-type.php:86
+msgid "All Status"
+msgstr ""
+
+#: includes/class-pati-post-type.php:87
+msgid "Parent Status"
+msgstr ""
+
+#: includes/class-pati-post-type.php:88
+msgid "Parent Status:"
+msgstr ""
+
+#: includes/class-pati-post-type.php:89
+msgid "Edit Status"
+msgstr ""
+
+#: includes/class-pati-post-type.php:90
+msgid "Update Status"
+msgstr ""
+
+#: includes/class-pati-post-type.php:91
+msgid "Add New Status"
+msgstr ""
+
+#: includes/class-pati-post-type.php:92
+msgid "New Status Name"
+msgstr ""
+
+#: includes/class-pati-post-type.php:108
+msgid "Search Priority"
+msgstr ""
+
+#: includes/class-pati-post-type.php:109
+msgid "All Priority"
+msgstr ""
+
+#: includes/class-pati-post-type.php:110
+msgid "Parent Priority"
+msgstr ""
+
+#: includes/class-pati-post-type.php:111
+msgid "Parent Priority:"
+msgstr ""
+
+#: includes/class-pati-post-type.php:112
+msgid "Edit Priority"
+msgstr ""
+
+#: includes/class-pati-post-type.php:113
+msgid "Update Priority"
+msgstr ""
+
+#: includes/class-pati-post-type.php:114
+msgid "Add New Priority"
+msgstr ""
+
+#: includes/class-pati-post-type.php:115
+msgid "New Priority Name"
+msgstr ""
+
+#: includes/class-pati-post-type.php:131
+msgid "Search Type"
+msgstr ""
+
+#: includes/class-pati-post-type.php:132
+msgid "All Type"
+msgstr ""
+
+#: includes/class-pati-post-type.php:133
+msgid "Parent Type"
+msgstr ""
+
+#: includes/class-pati-post-type.php:134
+msgid "Parent Type:"
+msgstr ""
+
+#: includes/class-pati-post-type.php:135
+msgid "Edit Type"
+msgstr ""
+
+#: includes/class-pati-post-type.php:136
+msgid "Update Type"
+msgstr ""
+
+#: includes/class-pati-post-type.php:137
+msgid "Add New Type"
+msgstr ""
+
+#: includes/class-pati-post-type.php:138
+msgid "New Type Name"
+msgstr ""
+
+#: includes/class-pati-post-type.php:153
+msgid "Tag"
+msgstr ""
+
+#: includes/class-pati-post-type.php:154
+msgid "Search Tags"
+msgstr ""
+
+#: includes/class-pati-post-type.php:155
+msgid "All Tags"
+msgstr ""
+
+#: includes/class-pati-post-type.php:156
+msgid "Parent Tag"
+msgstr ""
+
+#: includes/class-pati-post-type.php:157
+msgid "Parent Tag:"
+msgstr ""
+
+#: includes/class-pati-post-type.php:158
+msgid "Edit Tag"
+msgstr ""
+
+#: includes/class-pati-post-type.php:159
+msgid "Update Tag"
+msgstr ""
+
+#: includes/class-pati-post-type.php:160
+msgid "Add New Tag"
+msgstr ""
+
+#: includes/class-pati-post-type.php:161
+msgid "New Tag Name"
+msgstr ""
+
+#: includes/class-pati-post-type.php:175 includes/class-pati-post-type.php:186
+msgid "Groups"
+msgstr ""
+
+#: includes/class-pati-post-type.php:176
+msgid "Group"
+msgstr ""
+
+#: includes/class-pati-post-type.php:177
+msgid "Search Groups"
+msgstr ""
+
+#: includes/class-pati-post-type.php:178
+msgid "All Groups"
+msgstr ""
+
+#: includes/class-pati-post-type.php:179
+msgid "Parent Group"
+msgstr ""
+
+#: includes/class-pati-post-type.php:180
+msgid "Parent Group:"
+msgstr ""
+
+#: includes/class-pati-post-type.php:181
+msgid "Edit Group"
+msgstr ""
+
+#: includes/class-pati-post-type.php:182
+msgid "Update Group"
+msgstr ""
+
+#: includes/class-pati-post-type.php:183
+msgid "Add New Group"
+msgstr ""
+
+#: includes/class-pati-post-type.php:184
+msgid "New Group Name"
+msgstr ""
+
+#: includes/class-pati-template-loader.php:113
+#, php-format
+msgid "%s Tickets"
+msgstr ""
+
+#: includes/class-pati-template-loader.php:119
+#, php-format
+msgid "All %s priority Tickets"
+msgstr ""
+
+#: includes/class-pati-template-loader.php:125
+#: includes/class-pati-template-loader.php:131
+#, php-format
+msgid "All %s Tickets"
+msgstr ""
+
+#: includes/deprecated.php:126 includes/options/framework.config.php:261
+#: includes/options/framework.config.php:299
+msgid "Subject"
+msgstr ""
+
+#: includes/form.php:100
+msgid "Select type"
+msgstr ""
+
+#: includes/form.php:138
+msgid "Select category"
+msgstr ""
+
+#: includes/form.php:393
+#, php-format
+msgid ""
+"You ticket has been Submitted Successfully click <a href=\"%s\">here</a> to "
+"view the ticket"
+msgstr ""
+
+#: includes/functions.php:275
+msgid "The passwords you entered do not match.  Your password was not updated."
+msgstr ""
+
+#: includes/functions.php:284
+msgid "Profile not updated"
+msgstr ""
+
+#: includes/functions.php:287
+msgid "Not your profile. Refresh this page."
+msgstr ""
+
+#: includes/functions.php:290
+msgid "Not loged in"
+msgstr ""
+
+#: includes/install.php:60
+msgid "Question"
+msgstr ""
+
+#: includes/install.php:61
+msgid "Incident"
+msgstr ""
+
+#: includes/install.php:62
+msgid "Problem"
+msgstr ""
+
+#: includes/install.php:63
+msgid "Task"
+msgstr ""
+
+#: includes/install.php:69 templates/archive-ticket.php:17
+msgid "Open"
+msgstr ""
+
+#: includes/install.php:72
+msgid "Pending"
+msgstr ""
+
+#: includes/install.php:75
+msgid "Resolved"
+msgstr ""
+
+#: includes/install.php:82
+msgid "Normal"
+msgstr ""
+
+#: includes/install.php:83
+msgid "Low"
+msgstr ""
+
+#: includes/install.php:84
+msgid "High"
+msgstr ""
+
+#: includes/install.php:85
+msgid "Urgent"
+msgstr ""
+
+#: includes/loop-general.php:99
+msgid "&larr; Previous"
+msgstr ""
+
+#: includes/loop-general.php:100
+msgid "Next &rarr;"
+msgstr ""
+
+#: includes/loop-heading.php:59
+msgid "Updated"
+msgstr ""
+
+#: includes/loop-heading.php:71
+msgid "Author"
+msgstr ""
+
+#: includes/loop-heading.php:84 templates/add-ticket.php:30
+#: templates/profile.php:54
+msgid "Title"
+msgstr ""
+
+#: includes/loop-heading.php:98
+msgid "ID"
+msgstr ""
+
+#: includes/loop-ticket.php:400
+msgid "No one"
+msgstr ""
+
+#: includes/loop-update.php:165 includes/loop-update.php:166
+msgid "Not Assigned"
+msgstr ""
+
+#: includes/loop-update.php:190
+msgid "User"
+msgstr ""
+
+#: includes/loop-update.php:204
+msgid "Tag Details has been Updated"
+msgstr ""
+
+#: includes/options/framework.config.php:26
+msgid ""
+"WordPress provides two template rendering hooks, template_include and "
+"template_redirect. Both seam to work similarly but with a big difference in "
+"operation as one is action hook and the other is filter hook."
+msgstr ""
+
+#: includes/options/framework.config.php:27
+msgid ""
+"WordPress recommends using “Template Include” as it provides further "
+"extensibility. We have added options for both hooks to cater for wide "
+"variety of the Free/Premium WordPress themes."
+msgstr ""
+
+#: includes/options/framework.config.php:39
+msgid "Create Ticket Page"
+msgstr ""
+
+#: includes/options/framework.config.php:55
+msgid "Tickets Page Slug"
+msgstr ""
+
+#: includes/options/framework.config.php:63
+msgid "Template Hook"
+msgstr ""
+
+#: includes/options/framework.config.php:73
+msgid "Template Rendering"
+msgstr ""
+
+#: includes/options/framework.config.php:117
+msgid "Tickets Per Page"
+msgstr ""
+
+#: includes/options/framework.config.php:137
+msgid "Strikethrough Closed Tickets"
+msgstr ""
+
+#: includes/options/framework.config.php:144
+msgid "Hide Closed Tickets"
+msgstr ""
+
+#: includes/options/framework.config.php:159
+msgid "Reverse Comments"
+msgstr ""
+
+#: includes/options/framework.config.php:236
+msgid "Notifications"
+msgstr ""
+
+#: includes/options/framework.config.php:251
+#: includes/options/framework.config.php:289
+msgid "From Name"
+msgstr ""
+
+#: includes/options/framework.config.php:256
+#: includes/options/framework.config.php:294
+msgid "From Email"
+msgstr ""
+
+#: includes/options/framework.config.php:330
+msgid "Redirect Unauthorised User"
+msgstr ""
+
+#: includes/options/framework.config.php:341
+msgid "Redirect URL"
+msgstr ""
+
+#: includes/options/framework.config.php:358
+msgid "Ticket Page Border Color"
+msgstr ""
+
+#: includes/options/framework.config.php:364
+msgid "Form Border Focus Color"
+msgstr ""
+
+#: includes/options/framework.config.php:370
+msgid "Button Color"
+msgstr ""
+
+#: includes/options/framework.config.php:376
+msgid "Button Hover Color"
+msgstr ""
+
+#: includes/options/framework.config.php:382
+msgid "Border Radius"
+msgstr ""
+
+#: includes/options/framework.config.php:388
+msgid "Display Status Titles"
+msgstr ""
+
+#: includes/options/framework.config.php:394
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/skelet/classes/framework.class.php:197
+msgid "Success. Imported backup options."
+msgstr ""
+
+#: includes/skelet/classes/framework.class.php:202
+msgid "Default options restored."
+msgstr ""
+
+#: includes/skelet/classes/framework.class.php:221
+msgid "Default options restored for only this section."
+msgstr ""
+
+#: includes/skelet/classes/framework.class.php:405
+msgid "Settings saved."
+msgstr ""
+
+#: includes/skelet/classes/framework.class.php:406
+msgid "Save Changes"
+msgstr ""
+
+#: includes/skelet/classes/framework.class.php:406
+msgid "Saving..."
+msgstr ""
+
+#: includes/skelet/classes/framework.class.php:407
+msgid "Restore"
+msgstr ""
+
+#: includes/skelet/classes/options.class.php:126
+msgid "CONFIG"
+msgstr ""
+
+#: includes/skelet/classes/options.class.php:132
+msgid "USAGE"
+msgstr ""
+
+#: includes/skelet/classes/options.class.php:138
+msgid "VALUE"
+msgstr ""
+
+#: includes/skelet/classes/options.class.php:214
+#, php-format
+msgid "You are editing language: ( <strong>%s</strong> )"
+msgstr ""
+
+#: includes/skelet/classes/shortcode.class.php:83
+#: includes/skelet/classes/shortcode.class.php:91
+#: includes/skelet/fields/textarea/textarea.php:29
+msgid "Add Shortcode"
+msgstr ""
+
+#: includes/skelet/classes/shortcode.class.php:93
+msgid "Select a shortcode"
+msgstr ""
+
+#: includes/skelet/classes/shortcode.class.php:109
+msgid "Insert Shortcode"
+msgstr ""
+
+#: includes/skelet/fields/background/background.php:32
+#: includes/skelet/fields/background/background.php:33
+#: includes/skelet/fields/upload/upload.php:25
+#: includes/skelet/fields/upload/upload.php:26
+msgid "Upload"
+msgstr ""
+
+#: includes/skelet/fields/background/background.php:34
+#: includes/skelet/fields/upload/upload.php:27
+msgid "Use Image"
+msgstr ""
+
+#: includes/skelet/fields/backup/backup.php:22
+msgid "Import a Backup"
+msgstr ""
+
+#: includes/skelet/fields/backup/backup.php:23
+msgid "copy-paste your backup string here"
+msgstr ""
+
+#: includes/skelet/fields/backup/backup.php:28
+msgid "Export and Download Backup"
+msgstr ""
+
+#: includes/skelet/fields/backup/backup.php:29
+msgid "or"
+msgstr ""
+
+#: includes/skelet/fields/backup/backup.php:30
+msgid "!!! Reset All Options !!!"
+msgstr ""
+
+#: includes/skelet/fields/backup/backup.php:31
+msgid "Please be sure for reset all of framework options."
+msgstr ""
+
+#: includes/skelet/fields/gallery/gallery.php:23
+msgid "Add Gallery"
+msgstr ""
+
+#: includes/skelet/fields/gallery/gallery.php:24
+msgid "Edit Gallery"
+msgstr ""
+
+#: includes/skelet/fields/gallery/gallery.php:25
+msgid "Clear"
+msgstr ""
+
+#: includes/skelet/fields/group/group.php:23
+msgid "Adding"
+msgstr ""
+
+#: includes/skelet/fields/group/group.php:45
+#: includes/skelet/fields/group/group.php:77
+msgid "Remove"
+msgstr ""
+
+#: includes/skelet/fields/icon/icon.php:27
+#: includes/skelet/functions/actions.php:55
+msgid "Add Icon"
+msgstr ""
+
+#: includes/skelet/fields/icon/icon.php:28
+msgid "Remove Icon"
+msgstr ""
+
+#: includes/skelet/fields/image/image.php:24
+msgid "Add Image"
+msgstr ""
+
+#: includes/skelet/fields/sorter/sorter.php:26
+msgid "Enabled Modules"
+msgstr ""
+
+#: includes/skelet/fields/sorter/sorter.php:27
+msgid "Disabled Modules"
+msgstr ""
+
+#: includes/skelet/fields/switcher/switcher.php:22
+msgid "on"
+msgstr ""
+
+#: includes/skelet/fields/switcher/switcher.php:22
+msgid "off"
+msgstr ""
+
+#: includes/skelet/fields/typography/typography.php:75
+msgid "Web Safe Fonts"
+msgstr ""
+
+#: includes/skelet/fields/typography/typography.php:81
+msgid "Google Fonts"
+msgstr ""
+
+#: includes/skelet/fields/typography/typography.php:109
+#: includes/skelet/functions/actions.php:30
+msgid "Error! Can not load json file."
+msgstr ""
+
+#: includes/skelet/functions/actions.php:56
+msgid "Search a Icon..."
+msgstr ""
+
+#: includes/skelet/functions/actions.php:57
+msgid "Loading..."
+msgstr ""
+
+#: includes/skelet/functions/helpers.php:50
+msgid "This field class is not available!"
+msgstr ""
+
+#: includes/skelet/functions/helpers.php:610
+msgid "Select media"
+msgstr ""
+
+#: includes/skelet/functions/helpers.php:659
+#, php-format
+msgid "The option type <code>%s</code> is not yet implemented"
+msgstr ""
+
+#: includes/skelet/functions/validate.php:14
+msgid "Please write a valid email address!"
+msgstr ""
+
+#: includes/skelet/functions/validate.php:33
+msgid "Please write a numeric data!"
+msgstr ""
+
+#: includes/skelet/functions/validate.php:51
+msgid "Fatal Error! This field is required!"
+msgstr ""
+
+#: includes/skelet/pressapps/template/help.php:10
+msgid "How can we help?"
+msgstr ""
+
+#: includes/skelet/pressapps/template/help.php:11
+msgid ""
+"Find answers in documentation or contact us through standard or premium "
+"support"
+msgstr ""
+
+#: includes/skelet/pressapps/template/help.php:18
+msgid "Documentation"
+msgstr ""
+
+#: includes/skelet/pressapps/template/help.php:19
+msgid ""
+"Learn how to install, setup, use and customize our products in documentation"
+msgstr ""
+
+#: includes/skelet/pressapps/template/help.php:25
+msgid "Standard Support"
+msgstr ""
+
+#: includes/skelet/pressapps/template/help.php:26
+msgid ""
+"Envato market purchases include six month of complimentary standard support"
+msgstr ""
+
+#: includes/skelet/pressapps/template/help.php:32
+msgid "Premium Support"
+msgstr ""
+
+#: includes/skelet/pressapps/template/help.php:33
+msgid ""
+"Let us help you with rapid response times and advanced technical support"
+msgstr ""
+
+#: includes/skelet/pressapps/template/help.php:38
+msgid "Looking for more?"
+msgstr ""
+
+#: includes/skelet/pressapps/template/help.php:43
+msgid "Customization"
+msgstr ""
+
+#: includes/skelet/pressapps/template/help.php:44
+msgid ""
+"Do you want to customise our product and don not have the time or skills, "
+"get in touch"
+msgstr ""
+
+#: includes/skelet/pressapps/template/help.php:50
+msgid "Let us know what you think"
+msgstr ""
+
+#: includes/skelet/pressapps/template/help.php:51
+msgid ""
+"Your feedback helps us build better products and create better experience "
+"for you. Please share you your thoughts and ideas."
+msgstr ""
+
+#: includes/skelet/pressapps/template/help.php:52
+msgid "Feedback"
+msgstr ""
+
+#: includes/skelet/pressapps/template/products.php:9
+msgid "Products By PressApps"
+msgstr ""
+
+#: pressapps-ticket.php:147
+msgid "Public"
+msgstr ""
+
+#: pressapps-ticket.php:148
+msgid "Private"
+msgstr ""
+
+#: pressapps-ticket.php:149
+msgid "User Define"
+msgstr ""
+
+#: templates/add-ticket.php:80
+#: templates/single-ticket/ticket-update-form.php:80
+msgid "Comments"
+msgstr ""
+
+#: templates/add-ticket.php:86
+#: templates/single-ticket/ticket-update-form.php:87
+msgid "Attachments"
+msgstr ""
+
+#: templates/add-ticket.php:92
+msgid "Submit ticket"
+msgstr ""
+
+#: templates/archive-ticket.php:18
+msgid "Closed"
+msgstr ""
+
+#: templates/general/list-noticket.php:10
+msgid "No Tickets Found"
+msgstr ""
+
+#: templates/profile.php:46
+msgid "First Name"
+msgstr ""
+
+#: templates/profile.php:50
+msgid "Last Name"
+msgstr ""
+
+#: templates/profile.php:58
+msgid "Nickname"
+msgstr ""
+
+#: templates/profile.php:62
+msgid "Display Name"
+msgstr ""
+
+#: templates/profile.php:88
+msgid "Email"
+msgstr ""
+
+#: templates/profile.php:93
+msgid "Website"
+msgstr ""
+
+#: templates/profile.php:98
+msgid "Password"
+msgstr ""
+
+#: templates/profile.php:102
+msgid "Confirm Password"
+msgstr ""
+
+#: templates/profile.php:106
+msgid "Biographical Info"
+msgstr ""
+
+#: templates/profile.php:114
+msgid "Update"
+msgstr ""
+
+#: templates/single-ticket/ticket-noupdate.php:9
+msgid "No Updates over the ticket found"
+msgstr ""
+
+#: templates/single-ticket/ticket-summary.php:18
+msgid "Customer"
+msgstr ""
+
+#: templates/single-ticket/ticket-summary.php:22
+msgid "Created"
+msgstr ""
+
+#: templates/single-ticket/ticket-summary.php:24
+msgid "Last Modified"
+msgstr ""
+
+#: templates/single-ticket/ticket-update-form.php:93
+msgid "Update ticket"
+msgstr ""
